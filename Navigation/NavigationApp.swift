@@ -11,6 +11,9 @@ import SwiftUI
 struct NavigationApp: App {
     var body: some Scene {
         WindowGroup {
+            SwiftUIView()
+            //Define the initial view
+
             ContentView()
         }
     }
